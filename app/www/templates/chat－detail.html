@@ -1,0 +1,7 @@
+<ion-view view-title="{{chat.name}}">
+    <ion-content class="padding">
+        <img ng-src="{{chat.face}}" style="width: 64px;height: 64px;" alt="">
+        <p>{{chat.lastText}}</p>
+        <button ng-click="emitSome()">传播事件</button>
+    </ion-content>
+</ion-view>
